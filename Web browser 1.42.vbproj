@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3949C4EF-074E-47C9-92CE-2ACB45FB554F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication</RootNamespace>
+    <AssemblyName>Web browser 1.4 Beta 4 Forkshaft 4</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>http://www.lead-board.com/web/download/pre_beta4/build96/default/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://www.lead-board.com/web/updater/default/</UpdateUrl>
+    <SupportUrl>http://www.lead-board.com/web/</SupportUrl>
+    <ProductName>Leaderboard Web browser 1.4 Beta 4 Forkshaft 4</ProductName>
+    <PublisherName>Leaderboard</PublisherName>
+    <SuiteName>Leaderboard Web browser 1.4 Beta 4 Forkshaft 4</SuiteName>
+    <MinimumRequiredVersion>1.4.6.11</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.4.7.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Web browser 1.4 Beta 4 Forkshaft 4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Web browser 1.4 Beta 4 Forkshaft 4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E85A91AEED3FE877BF26A3BC2FF057CC6D9B5290</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Web browser 1.42_4_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Web browser 1.42_4_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Geckofx-Core">
+      <HintPath>Resources\geckofx22\Geckofx-Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Winforms">
+      <HintPath>Resources\geckofx22\Geckofx-Winforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Qios.DevSuite.Components, Version=4.0.0.20, Culture=neutral, PublicKeyToken=3cc53827b79c92fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Qios.DevSuite.Components.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Skybound.Gecko">
+      <HintPath>Resources\geckofx\bin\Skybound.Gecko.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.Win32" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="appload.vb" />
+    <Compile Include="appstore.Designer.vb">
+      <DependentUpon>appstore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="appstore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="app_tools.Designer.vb">
+      <DependentUpon>app_tools.vb</DependentUpon>
+    </Compile>
+    <Compile Include="app_tools.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="blend.Designer.vb">
+      <DependentUpon>blend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="blend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboBox1.vb" />
+    <Compile Include="contributors.Designer.vb">
+      <DependentUpon>contributors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contributors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog1.Designer.vb">
+      <DependentUpon>Dialog1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog11.Designer.vb">
+      <DependentUpon>Dialog11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog12.Designer.vb">
+      <DependentUpon>Dialog12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog2.Designer.vb">
+      <DependentUpon>Dialog2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog3.Designer.vb">
+      <DependentUpon>Dialog3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog4.Designer.vb">
+      <DependentUpon>Dialog4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog5.Designer.vb">
+      <DependentUpon>Dialog5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog6.Designer.vb">
+      <DependentUpon>Dialog6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog7.Designer.vb">
+      <DependentUpon>Dialog7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog8.Designer.vb">
+      <DependentUpon>Dialog8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog9.Designer.vb">
+      <DependentUpon>Dialog9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun.Designer.vb">
+      <DependentUpon>firstrun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun10.Designer.vb">
+      <DependentUpon>firstrun10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun11.Designer.vb">
+      <DependentUpon>firstrun11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun12.Designer.vb">
+      <DependentUpon>firstrun12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun13.Designer.vb">
+      <DependentUpon>firstrun13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun2.Designer.vb">
+      <DependentUpon>firstrun2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun3.Designer.vb">
+      <DependentUpon>firstrun3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun4.Designer.vb">
+      <DependentUpon>firstrun4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun5.Designer.vb">
+      <DependentUpon>firstrun5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun6.Designer.vb">
+      <DependentUpon>firstrun6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun7.Designer.vb">
+      <DependentUpon>firstrun7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun8.Designer.vb">
+      <DependentUpon>firstrun8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstrun9.Designer.vb">
+      <DependentUpon>firstrun9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstrun9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstruncancel.Designer.vb">
+      <DependentUpon>firstruncancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstruncancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form About Box.Designer.vb">
+      <DependentUpon>Form About Box.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form About Box.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newribbon.Designer.vb">
+      <DependentUpon>newribbon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newribbon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help.Designer.vb">
+      <DependentUpon>help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homepage.Designer.vb">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="htmlcode.Designer.vb">
+      <DependentUpon>htmlcode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="htmlcode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="message_tool.Designer.vb">
+      <DependentUpon>message_tool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="message_tool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="parental.Designer.vb">
+      <DependentUpon>parental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="parental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search_select.Designer.vb">
+      <DependentUpon>search_select.vb</DependentUpon>
+    </Compile>
+    <Compile Include="search_select.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setcentral.Designer.vb">
+      <DependentUpon>setcentral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="setcentral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="spla.Designer.vb">
+      <DependentUpon>spla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="spla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="webadvanced.Designer.vb">
+      <DependentUpon>webadvanced.vb</DependentUpon>
+    </Compile>
+    <Compile Include="webadvanced.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="appstore.resx">
+      <DependentUpon>appstore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="app_tools.resx">
+      <DependentUpon>app_tools.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="blend.resx">
+      <DependentUpon>blend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contributors.resx">
+      <DependentUpon>contributors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog1.resx">
+      <DependentUpon>Dialog1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog11.resx">
+      <DependentUpon>Dialog11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog12.resx">
+      <DependentUpon>Dialog12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog2.resx">
+      <DependentUpon>Dialog2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog3.resx">
+      <DependentUpon>Dialog3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog4.resx">
+      <DependentUpon>Dialog4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog5.resx">
+      <DependentUpon>Dialog5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog6.resx">
+      <DependentUpon>Dialog6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog7.resx">
+      <DependentUpon>Dialog7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog8.resx">
+      <DependentUpon>Dialog8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog9.resx">
+      <DependentUpon>Dialog9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun.resx">
+      <DependentUpon>firstrun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun10.resx">
+      <DependentUpon>firstrun10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun11.resx">
+      <DependentUpon>firstrun11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun12.resx">
+      <DependentUpon>firstrun12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun13.resx">
+      <DependentUpon>firstrun13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun2.resx">
+      <DependentUpon>firstrun2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun3.resx">
+      <DependentUpon>firstrun3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun4.resx">
+      <DependentUpon>firstrun4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun5.resx">
+      <DependentUpon>firstrun5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun6.resx">
+      <DependentUpon>firstrun6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun7.resx">
+      <DependentUpon>firstrun7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun8.resx">
+      <DependentUpon>firstrun8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstrun9.resx">
+      <DependentUpon>firstrun9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstruncancel.resx">
+      <DependentUpon>firstruncancel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form About Box.resx">
+      <DependentUpon>Form About Box.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="htmlcode.resx">
+      <DependentUpon>htmlcode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="message_tool.resx">
+      <DependentUpon>message_tool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newribbon.resx">
+      <DependentUpon>newribbon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parental.resx">
+      <DependentUpon>parental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search_select.resx">
+      <DependentUpon>search_select.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setcentral.resx">
+      <DependentUpon>setcentral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spla.resx">
+      <DependentUpon>spla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webadvanced.resx">
+      <DependentUpon>webadvanced.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web browser 1.42_1_TemporaryKey.pfx" />
+    <None Include="Web browser 1.42_2_TemporaryKey.pfx" />
+    <None Include="Web browser 1.42_3_TemporaryKey.pfx" />
+    <None Include="Web browser 1.42_4_TemporaryKey.pfx" />
+    <None Include="Web browser 1.42_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webstop.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webstop1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webstop2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webstop3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webstop4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metro_icons\black\back.png" />
+    <None Include="Resources\main_3.PNG" />
+    <None Include="Resources\searchbase.png" />
+    <None Include="Resources\ribbonbackstage_hometab.png" />
+    <None Include="Resources\firstrun_interactive.png" />
+    <None Include="Resources\ribbon_webtab.png" />
+    <None Include="Resources\ribbon_systemtab.png" />
+    <None Include="Resources\ribbon_abouttab.png" />
+    <None Include="Resources\gecko_trident.png" />
+    <Content Include="welcome_tab.html" />
+    <None Include="Resources\head.PNG" />
+    <None Include="Resources\body.bmp" />
+    <None Include="Resources\full.bmp" />
+    <Content Include="base2.ico" />
+    <Content Include="HTMLPage1.htm" />
+    <None Include="Resources\main.TIF" />
+    <None Include="Resources\main1.TIF" />
+    <None Include="Resources\pictureselect.TIF" />
+    <Content Include="ifo.bmp" />
+    <None Include="Resources\tabtype.PNG" />
+    <None Include="Resources\menucolour.PNG" />
+    <None Include="Resources\menucolour1.PNG" />
+    <None Include="Resources\menu3.PNG" />
+    <None Include="Resources\ribbon.PNG" />
+    <None Include="Resources\office.PNG" />
+    <None Include="Resources\leadrib.png" />
+    <None Include="Resources\startlogo.bmp" />
+    <None Include="Resources\tabcolour.PNG" />
+    <None Include="Resources\message_maker.PNG" />
+    <None Include="Resources\blender.PNG" />
+    <None Include="Resources\1379523912_or_56092.png" />
+    <Content Include="Tipofday.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".htm">
+      <Visible>False</Visible>
+      <Description>Internet web page</Description>
+      <Progid>2199</Progid>
+      <DefaultIcon>base2.ico</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fakes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

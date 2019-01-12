@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ribbonmenuverify" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ribbon</Value>
+    </Setting>
+    <Setting Name="tabtypecheck" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tab</Value>
+    </Setting>
+    <Setting Name="menucolour" Type="System.String" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="tabcolour" Type="System.String" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="parentpassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="parentalload" Type="System.String" Scope="User">
+      <Value Profile="(Default)">No</Value>
+    </Setting>
+    <Setting Name="blender" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="homepage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">www.google.co.in</Value>
+    </Setting>
+    <Setting Name="firstrun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="websitedrag" Type="System.String" Scope="User">
+      <Value Profile="(Default)">No</Value>
+    </Setting>
+    <Setting Name="scripterrors" Type="System.String" Scope="User">
+      <Value Profile="(Default)">No</Value>
+    </Setting>
+    <Setting Name="searchbase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bing</Value>
+    </Setting>
+    <Setting Name="bingsearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.bing.com/search?q=</Value>
+    </Setting>
+    <Setting Name="googlesearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.google.co.in/#q=</Value>
+    </Setting>
+    <Setting Name="yahoosearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://search.yahoo.com/search?p=</Value>
+    </Setting>
+    <Setting Name="homepage2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">www.bing.com</Value>
+    </Setting>
+    <Setting Name="baselocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http:/www.lead-board.com</Value>
+    </Setting>
+    <Setting Name="firstrunmode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="homepage3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.lead-board.com</Value>
+    </Setting>
+    <Setting Name="s" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Web browser 1.42.exe" version="1.0.0.0" publicKeyToken="64b8c24879066c37" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Web browser 1.42" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Web browser 1.42.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Web browser 1.42.exe" size="29696">
+      <assemblyIdentity name="Web browser 1.42" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ua0f0CnLQPRi0k0PadsLJcC1XM0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=VISHNU\Vishnu1" issuerKeyHash="b1b6665206d04e002497b7df20f8ffec6e68f45c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>s7JoRF3MI3TPjZVTfULqBXCNFX0=</DigestValue></Reference></SignedInfo><SignatureValue>FFWQxwZkPxaw++EaujwleVD5Tww8ezN82G02SGaDf9uWu7w/JbAeDc13dPIKz2KbQ8Ey7kWc4XV0B1b+BxfZ0XtUc4wf0pA8Yj6F5AByJ7NtqvcfGjCRwaiOtyWZCOthA3E8L6jHdWSdoTG7o/ADLjnBG7Pkvlb5xgX3iuP1AiY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>iqcjOrekJZKGB72aa5zEDpPY9jKGWBoM7kw3GNZCc6BEFcNc/tLvyP8euCqagaH7o1BFjV8ld7nWbv8eIHFp/5HWsrYYVejekoOn4Kx9s4YKecIBcXyV3ofnZ7Hl3FG1rHzmXBDDEkKxGc0KcMZg7KzwJ5dmuzjl2x1QlhA+5ls=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7d158d7005ea427d53958dcf7423cc5d4468b2b3" Description="" Url=""><as:assemblyIdentity name="Web browser 1.42.exe" version="1.0.0.0" publicKeyToken="64b8c24879066c37" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VISHNU\Vishnu1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OdXCeq7hiR4+/l+3YWKiEIvbUsA=</DigestValue></Reference></SignedInfo><SignatureValue>JxNgsZE2Fs1JHKi9Pot6+6vtWI9MspmoVRLgbLTba1R3KAKhsBVBoyOqpI2N08w1y3IJwa3A4jkXtlY3B8XbUCYM0kwQJN5mril4kAiBCzIUUmxhGlFThikZ4fnMpiHaP9BmpiKFk4zjv7NTI39J+movpiF9/nchSH/MCj7RsR0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>iqcjOrekJZKGB72aa5zEDpPY9jKGWBoM7kw3GNZCc6BEFcNc/tLvyP8euCqagaH7o1BFjV8ld7nWbv8eIHFp/5HWsrYYVejekoOn4Kx9s4YKecIBcXyV3ofnZ7Hl3FG1rHzmXBDDEkKxGc0KcMZg7KzwJ5dmuzjl2x1QlhA+5ls=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATagAwIBAgIQGSZvZFajnIBJ/xx/t1B/yzAJBgUrDgMCHQUAMCcxJTAjBgNVBAMeHABWAEkAUwBIAE4AVQBcAFYAaQBzAGgAbgB1ADEwHhcNMTEwNjE3MTI1NTE2WhcNMTIwNjE2MTg1NTE2WjAnMSUwIwYDVQQDHhwAVgBJAFMASABOAFUAXABWAGkAcwBoAG4AdQAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKpyM6t6QlkoYHvZprnMQOk9j2MoZYGgzuTDcY1kJzoEQVw1z+0u/I/x64KpqBofujUEWNXyV3udZu/x4gcWn/kdaythhV6N6Sg6fgrH2zhgp5wgFxfJXeh+dnseXcUbWsfOZcEMMSQrEZzQpwxmDsrPAnl2a7OOXbHVCWED7mWwIDAQABMAkGBSsOAwIdBQADgYEASrIa1XZgTNw2EVQpl/Az4pyLOUnFcFwsrNRTFcUToCXx0TOFWMH2Qx8WFWtJESHMbO1pwgSoUrsjhMZFLI7GaswVzNyoHJxE6iEdtnkcHd4jKmVrQslJaPCs1GCUDvE+2mYv1NIDaLLS1EVoHUkippxJ5DCJcddDmIgnJ96yIXc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

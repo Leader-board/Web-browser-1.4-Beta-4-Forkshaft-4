@@ -1,0 +1,4 @@
+﻿Tip 1- Concerned? Go to Options and click WebCheck.
+Tip 2- Change the background colour by going to Options and clicking Change the background colour.
+Tip 3- Close by clicking Exit and then Close
+Tip 4- Search by clicking Webpage and then clicking Search.
